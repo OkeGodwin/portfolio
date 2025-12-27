@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>my portfolio</title>
+  <meta name="description" content="My portfolio" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img
+          src="./assets/DSC_24191.png"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text">Oke Godwin</h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
+        <li class="main-header__navigation-link">
+          <a href="./index.html#projects"> Projects </a>
+        </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- <button class="btn btn-theme btn-sm">Download CV</button> -->
+  </header>
+
+  <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
+  <div class="themeClrSelector">
+    <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
+    <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+      class="themeClrSelector__img" />
+  </div>
+  <!---->
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Hello 👋</span>
+          <span class="heading-primary__main">
+            I'm Oke Godwin! A Graphics Designer Building Awesome Flyers And Logos That makes your brand stand out
+          </span>
+        </h1>
+        <a href="./index.html#projects" ><button class="btn btn-theme home-hero__btn-theme" >Projects</button></a>
+        <a href="./index.html#contact"><button class="btn btn-inv home-hero__btn-theme">Contact</button></a>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> About 🦄</span>
+        <span class="heading-secondary__main">
+          Here you will find more information about me, what I do, and list of my current skills 
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Story
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                Hi, I'm Oke Godwin, a passionate graphic designer with 2+ years of experience crafting visual stories through branding, print, and digital media. I thrive on turning ideas into visuals that resonate, communicate, and inspire. With a sharp eye for detail and a love for clean design, I help brands stand out with intention and impact.
+Let's make something beautiful together.
+              </span>
+              <span>
+                <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Error, aliquid! Itaque corrupti magnam fugiat mollitia labore
+                magni saepe veritatis voluptatum alias fugit. Explicabo
+                ducimus sequi aut corporis odio repellendus? Lorem ipsum dolor
+                sit amet
+              </span>
+              <span>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Error, aliquid! Itaque corrupti magnam fugiat mollitia labore
+                magni saepe veritatis voluptatum alias fugit. Explicabo
+                ducimus sequi aut corporis odio repellendus? Lorem ipsum dolor
+                sit amet -->
+              </span>
+            </p>
+            <a href="my resume.pdf" download="my resume"><button class="btn btn-theme about__btn-theme">My Resume</button></a>
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">Graphics-Design</li>
+              <li class="about__skill">Adobe Photoshop</li>
+              <li class="about__skill">Adobe Illustrator</li>
+              <li class="about__skill">Corel-Draw</li>
+              <li class="about__skill">Canva</li>
+
+              <!-- <li class="about__skill">git</li>
+              <li class="about__skill">vscode</li>
+              <li class="about__skill">linux</li>
+              <li class="about__skill">react</li>
+              <li class="about__skill">node</li>
+              <li class="about__skill">git</li>
+              <li class="about__skill">vscode</li>
+              <li class="about__skill">linux</li>
+              <li class="about__skill">javascript</li>
+              <li class="about__skill">react</li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-showcase">
+    <ul class="skills-showcase__list">
+      <li class="skills-showcase__list-item">
+        <i class="devicon-graphics-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-photoshop-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-rillustrato-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-illustrator-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-sasgs-original"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-canva-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-gidt-plain"></i>
+      </li>
+
+      <!-- <li class="skills-showcase__list-item">
+        <i class="devicon-android-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-python-plain"></i> -->
+      </li>
+    </ul>
+  </section>
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Projects 🛠️</span>
+        <span class="heading-secondary__main">
+          Here you will find some of the personal and clients projects that I created with the project details
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/IMG-20251129-WA0168.jpg" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Party Flyer
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  This project focused on promoting a high-energy entertainment event scheduled for December 4th at Victoria Point Hall, Epe, Lagos. The design captures a festive Detty December vibe using bold colors, crowd visuals, and countdown emphasis to build urgency. Key event details such as time, venue, and reservation contacts were clearly highlighted to drive attendance and table bookings. The result is a visually loud, hype-driven flyer built to stop the scroll and spark turnout.
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <!-- <span>
+                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                  sit amet, consectetur adipisicing elit
+                </span> -->
+              </p>
+              <!-- <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button>
+              <button class="btn btn-inv projects__btn-inv">Code Link</button> -->
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/IMG-20251223-WA0074.jpg" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Brand Logo
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  This project involved creating a clean and memorable logo for a food business. The design combines food-related symbols (spoon, fork, chef hat, pepper) to communicate cuisine, freshness, and professionalism. The color choices reinforce appetite appeal and brand warmth. The final logo is versatile, recognizable, and suitable for packaging, signage, and digital marketing.
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <!-- <span>
+                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                  sit amet, consectetur adipisicing elit
+                </span>
+              </p>
+              <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button>
+              <button class="btn btn-inv projects__btn-inv">Code Link</button> -->
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 2 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 3 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/Professional business card template _ Premium PSD.jpg" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Business Cards
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  A modern and elegant business card design suitable for corporate professionals and brands. Features a clean layout with bold color accents, space for logo, QR code, contact details, and address. Perfect for managers, entrepreneurs, and corporate branding. Fully customizable for print and digital use.
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <!-- <span>
+                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                  sit amet, consectetur adipisicing elit
+                </span>
+              </p>
+              <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button>
+              <button class="btn btn-inv projects__btn-inv">Code Link</button> -->
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/Copy of Luxury Emerald Green Wedding Invitation.jpg" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Invitation Cards
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  An elegant wedding invitation designed with emerald green, gold accents, and floral details. Features ornate borders, decorative typography, and a premium luxury feel. Ideal for traditional, classic, or royal-themed weddings. Suitable for high-quality printing and special celebrations.
+                </span>
+                <!-- <br />
+                  <br /> -->
+                <!-- <span>
+                  sapiente aut corporis odio repellendus? Lorem ipsum dolor
+                  sit amet, consectetur adipisicing elit
+                </span>
+              </p>
+              <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button>
+              <button class="btn btn-inv projects__btn-inv">Code Link</button> -->
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 4 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Image Slider (placed immediately after Projects) -->
+  <section id="slider" class="image-slider main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Showcase 📷</span>
+        <span class="heading-secondary__main">Other Projects</span>
+      </h2>
+      <div class="image-slider__wrap">
+        <div class="image-slider__slides">
+          <div class="image-slider__slide">
+            <img src="./assets/Let handle your side hustle with awesome design.jpg" alt="Slide 1" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/IMG-20251130-WA0015.jpg" alt="Slide 2" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/IMG-20251223-WA0063.jpg" alt="Slide 3" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/IMG-20251223-WA0064.jpg" alt="Slide 4" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/IMG-20251223-WA0065.jpg" alt="Slide 5" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/IMG-20251223-WA0068.jpg" alt="Slide 6" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/jmk.jpg" alt="Slide 7" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/IMG-20251223-WA0110.jpg" alt="Slide 8" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/IMG-20251225-WA0030.jpg" alt="Slide 9" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/IMG-20251226-WA0024.jpg" alt="Slide 10" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/IMG-20251226-WA0026.jpg" alt="Slide 11" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/Family Calendar 2026 Editable.jpg" alt="Slide 12" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/e0416c25-b68d-42c8-8d9b-2a467e4d2628.jpg" alt="Slide 13" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/topp taste.png" alt="Slide 14" />
+          </div>
+          <div class="image-slider__slide">
+            <img src="./assets/Program Flyer Design.jpg" alt="Slide 15" />
+          </div>
+        </div>
+
+        <button class="image-slider__nav image-slider__nav--prev" aria-label="Previous slide">❮</button>
+        <button class="image-slider__nav image-slider__nav--next" aria-label="Next slide">❯</button>
+
+        <div class="image-slider__dots" aria-hidden="false"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="image-lightbox">
+    <div class="image-lightbox__content">
+      <img src="" alt="Expanded image" class="image-lightbox__img" />
+      <button class="image-lightbox__close" aria-label="Close image">✕</button>
+    </div>
+  </div>
+
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Contact 📞</span>
+        <span class="heading-secondary__main">
+          Feel free to Contact me using any of the following Means.
+        </span><br>
+      </h2>
+        <a href="https://wa.link/qlxzbk"><div class="call"><h1>Call/Whatsapp: +2348082734641</h1></div></a>
+        <a href="mailto:okegodwin52@gmail.com"><div class="email"><h1>Email: okegodwin52@gmail.com</h1></div></a>
+        <img src="./assets/wa.link_qlxzbk.png" alt="scan qr">
+      <!-- <div class="main-section__content">
+        <div class="contact__form-cont">
+          <form class="contact__form">
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Name</label>
+              <input placeholder="Enter Your Name" type="text" class="contact__form-field-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Email</label>
+              <input placeholder="Enter Your Email" type="text" class="contact__form-field-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Message</label>
+              <textarea placeholder="Enter Your Message" name="message" id="" cols="30" rows="10"
+                class="contact__form-field-input"></textarea>
+            </div>
+            <button type="submit" class="contact__form-submit">Submit</button>
+          </form>
+          <div class="contact__form-visual"></div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <!-- <a href="#" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a> -->
+          <a href="https://wa.link/qlxzbk" class="main-footer__social-link">
+            <img src="./assets/icons8-whatsapp.gif" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="mailto:okegodwin52@gmail.com" class="main-footer__social-link">
+            <img src="./assets/icons8-email.gif" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <!-- <a href="#" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a> -->
+          <!-- <a href="#" class="main-footer__social-link">
+            <img src="./assets/icons8-pinterest-64.png" alt="" class="main-footer__social-link-icon" />
+          </a> -->
+        </div>
+      </div>
+    </div>
+    <div class="main-footer__bottom">
+      <div class="main-container">
+        <p class="main-footer__bottom-txt">
+          <!-- If you can give me some credits or shoutout here by linking to my website, then that will help me a lot :) -->
+          <a>my portfolio</a>
+          <script>document.write(new Date().getFullYear())</script>. Made by
+          <a>Oke Godwin</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
